@@ -23,7 +23,7 @@
 
 ### Решение 1. Elasticsearch
 
-![alt text]()
+![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/elk-mas-zad1.png)
 
 ---
 
@@ -35,7 +35,7 @@
 
 ### Решение 2. Kibana
 
-![alt text]()
+![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/elk-mas-zad2.png)
 
 ---
 
