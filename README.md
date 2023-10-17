@@ -47,7 +47,12 @@
 
 ### Решение 3. Logstash
 
-![alt text]()
+![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/elk-mas-zad3-1.png)
+В каталоге /etc/logstash/conf.d/ создал файл access.conf с настройкой поставки access-лога nginx в elasticsearch.
+![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/elk-mas-zad3-2.png)
+В пайплайне укзан путь к каталогу с конфигурационным файлом, который был создан.
+![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/elk-mas-zad3-3.png)
+Тут видно, что логи nginx записываются в файл.
 
 ---
 
@@ -59,7 +64,14 @@
 
 ### Решение 4. Filebeat. 
 
-![alt text]()
+![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/elk-mas-zad4-1.png)
+Конфиг файлбит
+![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/elk-mas-zad4-2.png)
+В каталоге /etc/logstash/conf.d/ изменил файл access.conf
+![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/elk-mas-zad4-3.png)
+Видно процесс filebeat в elasticsearch
+![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/elk-mas-zad4-4.png)
+Но логи в кибану не идут..
 
 ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
