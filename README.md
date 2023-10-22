@@ -91,6 +91,20 @@
 
 Тут видно, что nginx логи формирует нормально.
 
+- Установка и настройка vector
+
+![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/zad4_dorabotka_1.png)
+
+Установил vector, добавил в kibana
+
+![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/zad4_dorabotka_2.png)
+
+Конфигурация файла vector.yml
+
+![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/zad4_dorabotka_3.png)
+
+Ура, через vector логи в elscticsearch идут!
+
 ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
 
