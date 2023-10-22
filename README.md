@@ -95,13 +95,13 @@
 
 ![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/zad4_dorabotka_1.png)
 
-Установил vector, добавил в kibana
+Установил vector, добавил в elscticsearch
 
 ![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/zad4_dorabotka_2.png)
 
 Конфигурация файла vector.yml
 
-![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/zad4_dorabotka_3.png)
+![alt text](https://github.com/artmur1/11-03-elk-hw/blob/main/zad4_dorabotka_4.png)
 
 Ура, через vector логи в elscticsearch идут!
 
